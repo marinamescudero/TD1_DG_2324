@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+}
+header {
+    background-color: aliceblue;
+    padding: 5px;
+    text-align: center;
+    font-size: x-large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+section {
+    background-color:aliceblue;
+    text-align: center;
+}
+section h2 {
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    padding: 2px;
+}
+img {
+    width: 30%;
+    height: auto;
+    padding: 1%;
+    filter: saturate(0);
+}
+
+a:hover img {
+    filter: saturate(1);
+}
