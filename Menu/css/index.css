@@ -1,0 +1,63 @@
+.contenedor {
+    width: 1200px;
+    height: 200px;
+    margin: auto;
+    position: relative;
+    margin-top: 150px;
+}
+.c {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+.naranja {
+    background-color: rgb(251, 165, 6);
+}
+.amarillo {
+    background-color: rgb(246, 246, 5);
+}
+.aqua {
+    background-color: rgb(5, 248, 248);
+}
+.real {
+    background-color: rgb(65, 105, 225);
+}
+.marino {
+    background-color: rgb(6, 6, 247);
+}
+.profundo {
+    background-color: rgb(2, 2, 129);
+}
+.icono {
+    color: rgb(80, 77, 74);
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+.texto {
+    color:rgb(82, 78, 73);
+    text-align: center;
+    font: 20px sans-serif;
+}
+.enlaces {
+    text-align: center;
+    margin-top: 50px;
+    width: 1200px;
+}
+a {
+    margin: 20px;
+    font: 15px sans-serif;
+    
+}
+a:link {
+    color: rgb(216, 112, 147);
+}
+a:hover {
+    color:rgb(249, 6, 6)
+}
+a:visited {
+    color: rgb(133, 37, 222);
+}
+a:active {
+    color: rgb(244, 244, 3);
+}
