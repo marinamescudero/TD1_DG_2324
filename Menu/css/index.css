@@ -1,26 +1,25 @@
 .contenedor {
-    width: 1200px;
-    height: 200px;
-    margin: auto;
-    position: relative;
-    margin-top: 150px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
 .c {
-    width: 200px;
-    height: 200px;
-    float: left;
+    
 }
 .naranja {
     background-color: rgb(251, 165, 6);
 }
 .amarillo {
     background-color: rgb(246, 246, 5);
+    flex-grow: 2;
 }
 .aqua {
     background-color: rgb(5, 248, 248);
+    flex-shrink: 15;
 }
 .real {
     background-color: rgb(65, 105, 225);
+    flex-grow: 1;
 }
 .marino {
     background-color: rgb(6, 6, 247);
@@ -41,8 +40,9 @@
 }
 .enlaces {
     text-align: center;
-    margin-top: 50px;
-    width: 1200px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
 a {
     margin: 20px;
