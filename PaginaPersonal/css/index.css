@@ -1,0 +1,27 @@
+ul {
+    width: 80%;
+    height: 40%;
+    font:20px sans-serif;
+	list-style:none;
+}
+li {
+	margin:2px;
+	padding:2px;
+}
+li a {
+	display: block;
+	width:130px;
+	padding:4px 0;
+	text-decoration:none;
+	text-align:center;	
+    color: black;
+}
+.logo img {
+    width: 150px;
+    border-radius: 300px;
+}
+.active {
+    background-color: #FFD503;
+    text-align: center;
+    border-radius: 10px;
+}
