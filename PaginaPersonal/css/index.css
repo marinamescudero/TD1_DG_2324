@@ -1,24 +1,25 @@
+body {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    overflow-x:hidden;
+}    
 ul {
-    width: 80%;
-    height: 40%;
+    height: 30%;
     font:20px sans-serif;
 	list-style:none;
+    padding: 5%;
 }
 li {
 	margin:2px;
 	padding:2px;
 }
 li a {
-	display: block;
-	width:130px;
+	width:100px;
 	padding:4px 0;
 	text-decoration:none;
 	text-align:center;	
     color: black;
-}
-.logo img {
-    width: 150px;
-    border-radius: 300px;
 }
 .active {
     background-color: #FFD503;
