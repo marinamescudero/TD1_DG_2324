@@ -8,15 +8,11 @@ header {
     font-size: x-large;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
 section {
     background-color:aliceblue;
-    
     width: 80%;
-    justify-content: center;
-    flex-direction: row;
     margin: auto;
-    
+    text-align: center;
 }
 section h2 {
     font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
@@ -24,18 +20,23 @@ section h2 {
 }
 .elemento {
     background-color: aqua;
-    width: 30%;
-    text-align: center;
-
+    width: 75%;
+    justify-content: center;
+    padding-bottom: 5px;   
 }
 img {
-    width: 100%;
+    width: 90%;
     height: auto;
     padding: 1%;
     filter: saturate(0);
 }
-
 a:hover img {
     filter: saturate(1);
 }
-
+p {
+    background-color: beige;
+    height: 15%;
+    padding: 2px;
+    margin: 5px;
+    border-radius: 1vh;
+}
