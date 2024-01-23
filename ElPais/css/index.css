@@ -1,0 +1,16 @@
+.menu{
+   background-color: #013243;
+}
+.menu img{
+    width: 20%;
+}
+.banner img{
+    width: 100%;
+}
+.texto{
+    width: 50%;
+    justify-content: center;
+}
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
