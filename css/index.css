@@ -1,3 +1,22 @@
 body{
-    background: ;
+    background-image: url("../PaginaPersonal/DG/img/CohetesFotoReportaje.jpg");
+    background-size: cover;
+}
+h1{
+    font: 150%;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+
+}
+h3{
+    background-color: rgba(240, 248, 255, 0.632);
+    font: 1em sans-serif;
+    text-align: center;
+    color: darkred;
+    padding: 2%;
+    border-radius: 1vh;
 }
