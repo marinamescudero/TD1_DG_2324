@@ -1,5 +1,8 @@
 .menu{
    background-color: #013243;
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: center;
 }
 .menu img{
     width: 20%;
